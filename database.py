@@ -1,5 +1,5 @@
 from flask import Flask 
-from flask.ext.mysqldb import MySQL 
+from flask_mysqldb import MySQL 
 
 app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'sql3.freemysqlhosting.net'
